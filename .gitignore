@@ -223,3 +223,9 @@ __marimo__/
 # my files
 temp.py
 temp.ipynb
+
+# dataset files
+*.zip
+*.csv
+*.xslx
+
