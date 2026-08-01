@@ -1,5 +1,7 @@
 # Long Short-Term Memory (LSTM) Networks
 
+<img src="images/full_lstm_architecture.png"><br>
+
 ## 1. Introduction to LSTMs
 
 **Long Short-Term Memory (LSTM)** is a specialized variant of Recurrent Neural Networks (RNNs). LSTMs were specifically designed to overcome the **vanishing and exploding gradient problems** inherent in traditional RNNs when processing long sequential data.
@@ -40,9 +42,8 @@ Information flow into and out of the cell state is regulated by **Gating Mechani
 
 LSTMs utilize **three gates** composed of Sigmoid ($\sigma$) activation functions acting as soft switches (yielding values in the range $[0, 1]$), combined with element-wise (Hadamard) multiplication ($\odot$).
 
-<img src="full_lstm_architecture.png"><br>
-<img src="lstm_architecture1.png"><br>
-<img src="lstm_architecture2.png"><br>
+<img src="images/lstm_architecture1.png"><br>
+<img src="images/lstm_architecture2.png"><br>
 
 ### 4.1 Forget Gate ($f_t$)
 * **Purpose:** Decides what information to discard from the previous cell state $c_{t-1}$.
